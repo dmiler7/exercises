@@ -3,8 +3,8 @@ package exercises.january.ex1;
 import java.util.Arrays;
 
 /**
- * @author Dori
- * codewars:kata 1
+ * @author Dorim
+ * codewars:kata 8
  * Given an array of integers, find the one that appears an odd number of times.
  * <p>
  * There will always be only one integer that appears an odd number of times.
