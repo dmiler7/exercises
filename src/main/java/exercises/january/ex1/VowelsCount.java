@@ -28,12 +28,15 @@ public class VowelsCount {
 
     }
 
+
     public static int getCount(String str) {
 
         char[] charArray = new char[str.length()];
-        for(int i =0; i<str.length();i++){
-            charArray[i]=str.charAt(0);
+        for (int i = 0; i < str.length(); i++) {
+            charArray[i] = str.charAt(i);
         }
+//check:
+//        System.out.println(charArray);
 
         int vowelsCount = 0;
         vowelsCount = 0;
@@ -42,7 +45,8 @@ public class VowelsCount {
                 vowelsCount++;
             }
 
-        } return vowelsCount;
+        }
+        return vowelsCount;
     }
 
 
