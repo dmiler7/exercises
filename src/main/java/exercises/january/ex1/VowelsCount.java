@@ -25,9 +25,7 @@ public class VowelsCount {
     public static void main(String[] args) {
         String test = "Homoge nizowany! ";
         System.out.println(VowelsCount.getCount(test));
-
     }
-
 
     public static int getCount(String str) {
 
@@ -35,22 +33,16 @@ public class VowelsCount {
         for (int i = 0; i < str.length(); i++) {
             charArray[i] = str.charAt(i);
         }
-//check:
+// check:
 //        System.out.println(charArray);
 
         int vowelsCount = 0;
-        vowelsCount = 0;
         for (char letter : charArray) {
-            if (letter == 'a' && letter == 'e' && letter == 'i' && letter == 'o' && letter == 'u') {
+            if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
                 vowelsCount++;
             }
-
         }
         return vowelsCount;
     }
-
-
-//
-
 
 }
