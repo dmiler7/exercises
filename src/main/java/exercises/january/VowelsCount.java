@@ -9,14 +9,14 @@ package exercises.january;
  * <p>
  * The input string will only consist of lower case letters and/or spaces.
  * <p>
- * original: public class Vowels {
+ * original:
  * <p>
+ * public class Vowels {
  * public static int getCount(String str) {
  * int vowelsCount = 0;
  * // your code here
  * return vowelsCount;
  * }
- * <p>
  * }
  */
 

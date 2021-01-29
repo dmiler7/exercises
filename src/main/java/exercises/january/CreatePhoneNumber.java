@@ -4,17 +4,22 @@ package exercises.january;
  * @author Dorim
  * codewars:kata 6
  * @Date: 29.01.2021
- * * Given an array of integers, find the one that appears an odd number of times.
+ * Write a function that accepts an array of 10
+ * integers (between 0 and 9), that returns a
+ * string of those numbers in the form of a
+ * phone number.
  * <p>
- * There will always be only one integer that appears an odd number of times.
-
+ * original:
  * <p>
- * original: public class FindOdd {
- * public static int findIt(int[] a){
- * return odd
+ * public class Kata {
+ * public static String createPhoneNumber(int[] numbers) {
+ * // Your code here!
  * }
  * }
  */
 
 public class CreatePhoneNumber {
+    public static String createPhoneNumber(int[] numbers) {
+        // Your code here!
+    }
 }

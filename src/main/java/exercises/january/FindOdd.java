@@ -6,12 +6,14 @@ import java.util.Arrays;
  * @author Dorim
  * codewars:kata 8
  * @Date: 18.01.2021 - 20.01.2021
- *
+ * <p>
  * Given an array of integers, find the one that appears an odd number of times.
  * <p>
  * There will always be only one integer that appears an odd number of times.
  * <p>
- * original: public class FindOdd {
+ * original:
+ * <p>
+ * public class FindOdd {
  * public static int findIt(int[] a){
  * return odd
  * }
@@ -28,7 +30,7 @@ public class FindOdd {
         System.out.println(FindOdd.findIt(testTable));
     }
 
-//    // * chosen solution
+    //    // * chosen solution
     public static int findIt(int[] a) {
         Arrays.sort(a);
         int i;
