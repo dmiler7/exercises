@@ -1,4 +1,4 @@
-package exercises.january.ex1;
+package exercises.january;
 
 /**
  * @author Dorim

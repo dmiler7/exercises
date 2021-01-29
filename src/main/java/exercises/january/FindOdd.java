@@ -1,14 +1,15 @@
-package exercises.january.ex1;
+package exercises.january;
 
 import java.util.Arrays;
 
 /**
  * @author Dorim
  * codewars:kata 8
+ * @Date: 18.01.2021 - 20.01.2021
+ *
  * Given an array of integers, find the one that appears an odd number of times.
  * <p>
  * There will always be only one integer that appears an odd number of times.
- * @Date: 18.01.2021 - 20.01.2021
  * <p>
  * original: public class FindOdd {
  * public static int findIt(int[] a){

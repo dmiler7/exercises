@@ -60,12 +60,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.VowelsCount">
-    <configuration name="FindOdd (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.january.ex1.FindOdd" />
+    <configuration name="FindOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="january.FindOdd" />
       <module name="2021 ex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.january.ex1.*" />
+          <option name="PATTERN" value="january.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="FindOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="january.FindOdd" />
+      <option name="MAIN_CLASS_NAME" value="exercises.january.FindOdd" />
       <module name="2021 ex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="january.*" />
+          <option name="PATTERN" value="exercises.january.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +97,11 @@
       </method>
     </configuration>
     <configuration name="VowelsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.january.ex1.VowelsCount" />
+      <option name="MAIN_CLASS_NAME" value="exercises.january.VowelsCount" />
       <module name="2021 ex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.january.ex1.*" />
+          <option name="PATTERN" value="exercises.january.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
