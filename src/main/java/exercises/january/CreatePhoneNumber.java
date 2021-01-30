@@ -66,7 +66,7 @@ public class CreatePhoneNumber {
         }
         String str1 = "(" + String.join("", strArray[0], strArray[1], strArray[2]) + ") ";
         String str2 = String.join("", strArray[3], strArray[4], strArray[5]);
-        String str3 = "-" + String.join("", strArray[6], strArray[7], strArray[8]) + " ";
+        String str3 = "-" + String.join("", strArray[6], strArray[7], strArray[8] + strArray[9]);
         return str1 + str2 + str3;
     }
 }
