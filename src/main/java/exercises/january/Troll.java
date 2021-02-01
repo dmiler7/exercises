@@ -1,5 +1,7 @@
 package exercises.january;
 
+import java.util.Arrays;
+
 /**
  * @author Dorim
  * codewars:kata 5 (level 7)
@@ -35,6 +37,7 @@ public class Troll {
 
     /**
      * This method returns String after vowels are removed
+     *
      * @param str The sequence of characters to have a,e,i,o,u vowels removed
      * @return num squared.
      * @see
@@ -43,18 +46,19 @@ public class Troll {
     public static String disemvowel(String str) {
 
         char[] charArray = str.toCharArray();
-        char[] newArray=new char[str.length()];
+        char[] newArray = new char[str.length()];
 
         for (int i = 0; i < str.length(); i++) {
-            if (charArray[i] == 'a' || charArray[i] == 'A' ||charArray[i] == 'E' ||charArray[i] == 'I' ||charArray[i] == 'O' ||charArray[i] == 'U' ||charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
-               continue;
+            if (charArray[i] == 'a' || charArray[i] == 'A' || charArray[i] == 'Y' || charArray[i] == 'E' || charArray[i] == 'I' || charArray[i] == 'O' || charArray[i] == 'U' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
+                continue;
             } else {
-                newArray[i]=charArray[i];
+                newArray[i] = charArray[i];
             }
-        }  String newStr=new String(newArray);
-        return newStr;
+        }
 
+        return String.valueOf(Arrays.toString(newArray));
     }
+}
 //        String disemvoweledStr = String.valueOf(charArray);
 //            return disemvoweledStr;
 
@@ -68,6 +72,3 @@ public class Troll {
 //                sb.append(str);
 //                sb.delete(ch);
 //            }
-        }
-
-
