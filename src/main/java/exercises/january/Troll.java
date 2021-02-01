@@ -46,7 +46,7 @@ public class Troll {
         char[] newArray=new char[str.length()];
 
         for (int i = 0; i < str.length(); i++) {
-            if (charArray[i] == 'a' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
+            if (charArray[i] == 'a' || charArray[i] == 'A' ||charArray[i] == 'E' ||charArray[i] == 'I' ||charArray[i] == 'O' ||charArray[i] == 'U' ||charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
                continue;
             } else {
                 newArray[i]=charArray[i];
