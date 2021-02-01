@@ -30,19 +30,30 @@ public class Troll {
 
     public static void main(String[] args) {
         String test = "This website is for losers LOL!";
-        Troll troll= new Troll();
-        disemvowel(test);
+        System.out.println(disemvowel(test));
     }
 
-    public static void disemvowel(String str) {
-        char[] charArray = new char[str.length()];
+    /**
+     * This method returns String after vowels are removed
+     * @param str The sequence of characters to have a,e,i,o,u vowels removed
+     * @return num squared.
+     * @see
+     */
+
+    public static String disemvowel(String str) {
+
+        char[] charArray = str.toCharArray();
+        char[] newArray=new char[str.length()];
+
         for (int i = 0; i < str.length(); i++) {
             if (charArray[i] == 'a' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
-                charArray[i] = charArray[i + 1];
+               continue;
+            } else {
+                newArray[i]=charArray[i];
             }
-        }
+        }  String newStr=new String(newArray);
+        return newStr;
 
-        System.out.println(charArray);
     }
 //        String disemvoweledStr = String.valueOf(charArray);
 //            return disemvoweledStr;
