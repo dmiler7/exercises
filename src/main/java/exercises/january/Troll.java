@@ -1,7 +1,5 @@
 package exercises.january;
 
-import java.util.Arrays;
-
 /**
  * @author Dorim
  * codewars:kata 5 (level 7)
@@ -31,7 +29,7 @@ import java.util.Arrays;
 public class Troll {
 
     public static void main(String[] args) {
-        String test = "This website is for losers LOL!";
+        String test = "No offense but,\\nYour writing is among the worst I've ever read";
         System.out.println(disemvowel(test));
     }
 
@@ -45,19 +43,25 @@ public class Troll {
 
     public static String disemvowel(String str) {
 
-        char[] charArray = str.toCharArray();
-        char[] newArray = new char[str.length()];
+//        char[] charArray = str.toCharArray();
+//        int counter = 0;
+//        char[] newArray = new char[str.length()-counter];
 
-        for (int i = 0; i < str.length(); i++) {
-            if (charArray[i] == 'a' || charArray[i] == 'A' || charArray[i] == 'Y' || charArray[i] == 'E' || charArray[i] == 'I' || charArray[i] == 'O' || charArray[i] == 'U' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
-                continue;
-            } else {
-                newArray[i] = charArray[i];
-            }
-        }
-
-        return String.valueOf(Arrays.toString(newArray));
+        String newStr = str.replaceAll("([aeiouAEIOU])", (""));
+//        for (int i = 0; i < str.length(); i++) {
+//            if (charArray[i] == 'a' || charArray[i] == 'A' || charArray[i] == 'Y' || charArray[i] == 'E' || charArray[i] == 'I' || charArray[i] == 'O' || charArray[i] == 'U' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
+//               counter++;
+//
+//                continue;
+//
+//            } else {
+//
+//                newArray[i] = charArray[i];
+//            }
+//        }
+        return newStr;
     }
+
 }
 //        String disemvoweledStr = String.valueOf(charArray);
 //            return disemvoweledStr;
@@ -72,3 +76,11 @@ public class Troll {
 //                sb.append(str);
 //                sb.delete(ch);
 //            }
+
+//  solution provided:
+//public class Troll {
+//    public static String disemvowel(String str) {
+//        String newStr = str.replaceAll("([aeiouAEIOU])", (""));
+//        return newStr;
+//    }
+//}
