@@ -30,21 +30,26 @@ public class Troll {
 
     public static void main(String[] args) {
         String test = "No offense but,\\nYour writing is among the worst I've ever read";
-        System.out.println(disemvowel2(test));
+        System.out.println(disemvowel3(test));
     }
 
     /**
      * disemvowel() returns String after vowels are removed.
+     *
      * @param str The sequence of characters from which a,e,i,o,u vowels are to be removed.
-     * @return disemvoweledStr - String without named vowels.
+     * @return str.replaceAll - String without named vowels.
      */
-
-
-    public static String disemvowel2(String str) {
+    public static String disemvowel1(String str) {
         return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
     }
 
-    public static String disemvowel3(String str) {
+    /**
+     * for loop utilizing str.charAt(i)
+     *
+     * @param str
+     * @return newStr
+     */
+    public static String disemvowel2(String str) {
         String newStr = "";
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) != 'a'
@@ -62,18 +67,31 @@ public class Troll {
         }
         return newStr;
     }
+
+
+    /**
+     * utilizing StringBuffer & switch statement
+     * @param str
+     * @return strb.toString()
+     */
+    public static String disemvowel3(String str) {
+        StringBuffer strb = new StringBuffer();
+        for (char character : str.toCharArray()) {
+            switch (character) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                case 'A':
+                case 'E':
+                case 'I':
+                case 'O':
+                case 'U':
+                    break;
+                default:
+                    strb.append(character);
+            }
+        }return strb.toString();
+    }
 }
-
-//        String disemvoweledStr = String.valueOf(charArray);
-//            return disemvoweledStr;
-
-//        char[] charArray = str.toCharArray();
-//        String emptyChar = "";
-//        String newString;
-
-//        for (char ch : charArray) {
-//            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-//                StringBuilder sb =new StringBuilder();
-//                sb.append(str);
-//                sb.delete(ch);
-//            }
