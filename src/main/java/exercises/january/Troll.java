@@ -64,16 +64,21 @@ public class Troll {
 
 
     public static String disemvowel1(String str) {
-        String disemvoweledStr ="";
+        String disemvoweledStr = "";
         for (int i = 0; i < str.length(); i++) {
 
-            if (str.charAt(i)!='a'
-            && ){
-                disemvoweledStr=disemvoweledStr+str.charAt(i);
+            if (str.charAt(i) != 'a'
+                    &&) {
+                disemvoweledStr = disemvoweledStr + str.charAt(i);
+            }
         }
-        }
-return disemvoweledStr;
+        return disemvoweledStr;
     }
+
+    public static String disemvowel2(String str) {
+        return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
+    }
+
 //        String disemvoweledStr = String.valueOf(charArray);
 //            return disemvoweledStr;
 
