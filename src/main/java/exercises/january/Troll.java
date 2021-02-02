@@ -34,46 +34,11 @@ public class Troll {
     }
 
     /**
-     * This method returns String after vowels are removed
-     *
-     * @param str The sequence of characters to have a,e,i,o,u vowels removed
-     * @return num squared.
-     * @see
+     * disemvowel() returns String after vowels are removed.
+     * @param str The sequence of characters from which a,e,i,o,u vowels are to be removed.
+     * @return disemvoweledStr - String without named vowels.
      */
 
-    public static String disemvowel(String str) {
-
-//        char[] charArray = str.toCharArray();
-//        int counter = 0;
-//        char[] newArray = new char[str.length()-counter];
-
-        String newStr = str.replaceAll("([aeiouAEIOU])", (""));
-//        for (int i = 0; i < str.length(); i++) {
-//            if (charArray[i] == 'a' || charArray[i] == 'A' || charArray[i] == 'Y' || charArray[i] == 'E' || charArray[i] == 'I' || charArray[i] == 'O' || charArray[i] == 'U' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
-//               counter++;
-//
-//                continue;
-//
-//            } else {
-//
-//                newArray[i] = charArray[i];
-//            }
-//        }
-        return newStr;
-    }
-
-
-//    public static String disemvowel1(String str) {
-//        String disemvoweledStr = "";
-//        for (int i = 0; i < str.length(); i++) {
-//
-//            if (str.charAt(i) != 'a'
-//                    &&) {
-//                disemvoweledStr = disemvoweledStr + str.charAt(i);
-//            }
-//        }
-//        return disemvoweledStr;
-//    }
 
     public static String disemvowel2(String str) {
         return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
@@ -112,11 +77,3 @@ public class Troll {
 //                sb.append(str);
 //                sb.delete(ch);
 //            }
-
-//  solution provided:
-//public class Troll {
-//    public static String disemvowel(String str) {
-//        String newStr = str.replaceAll("([aeiouAEIOU])", (""));
-//        return newStr;
-//    }
-//}
