@@ -62,7 +62,18 @@ public class Troll {
         return newStr;
     }
 
-}
+
+    public static String disemvowel1(String str) {
+        String disemvoweledStr ="";
+        for (int i = 0; i < str.length(); i++) {
+
+            if (str.charAt(i)!='a'
+            && ){
+                disemvoweledStr=disemvoweledStr+str.charAt(i);
+        }
+        }
+return disemvoweledStr;
+    }
 //        String disemvoweledStr = String.valueOf(charArray);
 //            return disemvoweledStr;
 
@@ -84,3 +95,5 @@ public class Troll {
 //        return newStr;
 //    }
 //}
+
+}
