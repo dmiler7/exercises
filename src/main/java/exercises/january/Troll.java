@@ -30,75 +30,68 @@ public class Troll {
 
     public static void main(String[] args) {
         String test = "No offense but,\\nYour writing is among the worst I've ever read";
-        System.out.println(disemvowel(test));
+        System.out.println(disemvowel3(test));
     }
 
     /**
-     * This method returns String after vowels are removed
+     * disemvowel() returns String after vowels are removed.
      *
-     * @param str The sequence of characters to have a,e,i,o,u vowels removed
-     * @return num squared.
-     * @see
+     * @param str The sequence of characters from which a,e,i,o,u vowels are to be removed.
+     * @return str.replaceAll - String without named vowels.
      */
+    public static String disemvowel1(String str) {
+        return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
+    }
 
-    public static String disemvowel(String str) {
-
-//        char[] charArray = str.toCharArray();
-//        int counter = 0;
-//        char[] newArray = new char[str.length()-counter];
-
-        String newStr = str.replaceAll("([aeiouAEIOU])", (""));
-//        for (int i = 0; i < str.length(); i++) {
-//            if (charArray[i] == 'a' || charArray[i] == 'A' || charArray[i] == 'Y' || charArray[i] == 'E' || charArray[i] == 'I' || charArray[i] == 'O' || charArray[i] == 'U' || charArray[i] == 'e' || charArray[i] == 'i' || charArray[i] == 'o' || charArray[i] == 'u') {
-//               counter++;
-//
-//                continue;
-//
-//            } else {
-//
-//                newArray[i] = charArray[i];
-//            }
-//        }
+    /**
+     * for loop utilizing str.charAt(i)
+     *
+     * @param str
+     * @return newStr
+     */
+    public static String disemvowel2(String str) {
+        String newStr = "";
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) != 'a'
+                    && str.charAt(i) != 'A'
+                    && str.charAt(i) != 'e'
+                    && str.charAt(i) != 'E'
+                    && str.charAt(i) != 'i'
+                    && str.charAt(i) != 'I'
+                    && str.charAt(i) != 'o'
+                    && str.charAt(i) != 'O'
+                    && str.charAt(i) != 'u'
+                    && str.charAt(i) != 'U') {
+                newStr += str.charAt(i);
+            }
+        }
         return newStr;
     }
 
 
-    public static String disemvowel1(String str) {
-        String disemvoweledStr = "";
-        for (int i = 0; i < str.length(); i++) {
-
-            if (str.charAt(i) != 'a'
-                    &&) {
-                disemvoweledStr = disemvoweledStr + str.charAt(i);
+    /**
+     * utilizing StringBuffer & switch statement
+     * @param str
+     * @return strb.toString()
+     */
+    public static String disemvowel3(String str) {
+        StringBuffer strb = new StringBuffer();
+        for (char character : str.toCharArray()) {
+            switch (character) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                case 'A':
+                case 'E':
+                case 'I':
+                case 'O':
+                case 'U':
+                    break;
+                default:
+                    strb.append(character);
             }
-        }
-        return disemvoweledStr;
+        }return strb.toString();
     }
-
-    public static String disemvowel2(String str) {
-        return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
-    }
-
-//        String disemvoweledStr = String.valueOf(charArray);
-//            return disemvoweledStr;
-
-//        char[] charArray = str.toCharArray();
-//        String emptyChar = "";
-//        String newString;
-
-//        for (char ch : charArray) {
-//            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-//                StringBuilder sb =new StringBuilder();
-//                sb.append(str);
-//                sb.delete(ch);
-//            }
-
-//  solution provided:
-//public class Troll {
-//    public static String disemvowel(String str) {
-//        String newStr = str.replaceAll("([aeiouAEIOU])", (""));
-//        return newStr;
-//    }
-//}
-
 }

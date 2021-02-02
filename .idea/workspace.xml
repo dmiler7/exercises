@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7803ed96-877d-4f87-beee-52f4738e000b" name="Default Changelist" comment="" />
+    <list default="true" id="7803ed96-877d-4f87-beee-52f4738e000b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 ex/exercises/january/Troll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2021 ex/exercises/january/Troll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/january/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/january/Troll.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,6 +140,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Troll" />
@@ -175,6 +192,7 @@
       <workItem from="1612179922051" duration="2724000" />
       <workItem from="1612188021694" duration="4928000" />
       <workItem from="1612251214090" duration="592000" />
+      <workItem from="1612291548274" duration="1577000" />
     </task>
     <servers />
   </component>
