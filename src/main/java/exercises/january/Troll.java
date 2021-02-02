@@ -30,7 +30,7 @@ public class Troll {
 
     public static void main(String[] args) {
         String test = "No offense but,\\nYour writing is among the worst I've ever read";
-        System.out.println(disemvowel(test));
+        System.out.println(disemvowel2(test));
     }
 
     /**
@@ -63,21 +63,41 @@ public class Troll {
     }
 
 
-    public static String disemvowel1(String str) {
-        String disemvoweledStr = "";
-        for (int i = 0; i < str.length(); i++) {
-
-            if (str.charAt(i) != 'a'
-                    &&) {
-                disemvoweledStr = disemvoweledStr + str.charAt(i);
-            }
-        }
-        return disemvoweledStr;
-    }
+//    public static String disemvowel1(String str) {
+//        String disemvoweledStr = "";
+//        for (int i = 0; i < str.length(); i++) {
+//
+//            if (str.charAt(i) != 'a'
+//                    &&) {
+//                disemvoweledStr = disemvoweledStr + str.charAt(i);
+//            }
+//        }
+//        return disemvoweledStr;
+//    }
 
     public static String disemvowel2(String str) {
         return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
     }
+
+    public static String disemvowel3(String str) {
+        String newStr = "";
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) != 'a'
+                    && str.charAt(i) != 'A'
+                    && str.charAt(i) != 'e'
+                    && str.charAt(i) != 'E'
+                    && str.charAt(i) != 'i'
+                    && str.charAt(i) != 'I'
+                    && str.charAt(i) != 'o'
+                    && str.charAt(i) != 'O'
+                    && str.charAt(i) != 'u'
+                    && str.charAt(i) != 'U') {
+                newStr += str.charAt(i);
+            }
+        }
+        return newStr;
+    }
+}
 
 //        String disemvoweledStr = String.valueOf(charArray);
 //            return disemvoweledStr;
@@ -100,5 +120,3 @@ public class Troll {
 //        return newStr;
 //    }
 //}
-
-}
