@@ -40,7 +40,7 @@ public class Troll {
      * @return str.replaceAll - String without named vowels.
      */
     public static String disemvowel1(String str) {
-        return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
+        return str.replaceAll("(?i)[aeiou]", ""); //(?i) indicating case sensitivity
     }
 
     /**
