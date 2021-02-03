@@ -24,6 +24,8 @@ package exercises.january;
  * // Code away...
  * }
  * }
+ * <p>
+ * Task #4
  */
 
 public class Troll {
@@ -40,7 +42,7 @@ public class Troll {
      * @return str.replaceAll - String without named vowels.
      */
     public static String disemvowel1(String str) {
-        return str.replaceAll("(?i)[a,e,i,o,u]", ""); //(?i) indicating case sensitivity
+        return str.replaceAll("(?i)[aeiou]", ""); //(?i) indicating case sensitivity
     }
 
     /**
@@ -68,9 +70,9 @@ public class Troll {
         return newStr;
     }
 
-
     /**
      * utilizing StringBuffer & switch statement
+     *
      * @param str
      * @return strb.toString()
      */
@@ -92,6 +94,7 @@ public class Troll {
                 default:
                     strb.append(character);
             }
-        }return strb.toString();
+        }
+        return strb.toString();
     }
 }
