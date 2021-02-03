@@ -24,6 +24,8 @@ package exercises.january;
  * // Code away...
  * }
  * }
+ * <p>
+ * Task #4
  */
 
 public class Troll {
@@ -68,9 +70,9 @@ public class Troll {
         return newStr;
     }
 
-
     /**
      * utilizing StringBuffer & switch statement
+     *
      * @param str
      * @return strb.toString()
      */
@@ -92,6 +94,7 @@ public class Troll {
                 default:
                     strb.append(character);
             }
-        }return strb.toString();
+        }
+        return strb.toString();
     }
 }
