@@ -36,12 +36,12 @@ package exercises.february;
 public class BraceChecker {
 
     public static void main(String[] args) {
-        String test = "(){}[]";
+        String test = "(";
         BraceChecker braceChecker = new BraceChecker();
-        System.out.println(braceChecker.isValid(test));
+        System.out.println(braceChecker.isValid("{}{}"));
     }
 
-    public boolean isValid(String braces) {
+    public boolean isValid2(String braces) {
 
         String a = "()";
         String b = "{}";
@@ -63,7 +63,28 @@ public class BraceChecker {
         if (!braces.contains(regex)) {
             return false;
         } else
-        return true;
+            return true;
+    }
+
+    public boolean isValid(String braces) {
+        if (braces == null || braces.length() % 2 != 0) {
+            return false;
+        } else if
+        (!(braces.charAt(0) == '(' ||
+                        braces.charAt(0) == '{' ||
+                        braces.charAt(0) == '[')) {
+            return false;
+        }
+
+        while (braces.contains("()") ||
+                braces.contains("{}") ||
+                braces.contains("[]")) {
+            braces = braces.replaceAll("\\(\\)", "")
+                    .replaceAll("\\{\\}", "")
+                    .replaceAll("\\[\\]", "");
+        }
+        return braces.length() == 0;
     }
 }
+
 
