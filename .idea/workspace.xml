@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7803ed96-877d-4f87-beee-52f4738e000b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/february/FibonacciExtra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/february/FibonacciExtra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +142,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FibonacciExtra" />
@@ -186,6 +198,7 @@
       <workItem from="1612443141631" duration="2995000" />
       <workItem from="1612507610854" duration="4390000" />
       <workItem from="1612526636124" duration="379000" />
+      <workItem from="1612527377828" duration="1894000" />
     </task>
     <servers />
   </component>
