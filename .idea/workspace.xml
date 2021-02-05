@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7803ed96-877d-4f87-beee-52f4738e000b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2021 ex/exercises/february/BraceChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2021 ex/exercises/february/BraceChecker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exercises/february/BraceChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/february/BraceChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciExtra">
+  <component name="RunManager" selected="Application.BraceChecker">
     <configuration name="BraceChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.february.BraceChecker" />
       <module name="2021 ex" />
@@ -155,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonacciExtra" />
         <item itemvalue="Application.BraceChecker" />
+        <item itemvalue="Application.FibonacciExtra" />
         <item itemvalue="Application.Troll" />
         <item itemvalue="Application.CreatePhoneNumber" />
         <item itemvalue="Application.VowelsCount" />
@@ -198,7 +199,7 @@
       <workItem from="1612443141631" duration="2995000" />
       <workItem from="1612507610854" duration="4390000" />
       <workItem from="1612526636124" duration="379000" />
-      <workItem from="1612527377828" duration="4575000" />
+      <workItem from="1612527377828" duration="6578000" />
     </task>
     <servers />
   </component>
