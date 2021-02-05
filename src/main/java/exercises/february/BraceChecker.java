@@ -41,7 +41,7 @@ public class BraceChecker {
         System.out.println(braceChecker.isValid(test));
     }
 
-    public boolean isValid(String braces) {
+    public boolean isValid2(String braces) {
 
         String a = "()";
         String b = "{}";
@@ -63,7 +63,22 @@ public class BraceChecker {
         if (!braces.contains(regex)) {
             return false;
         } else
-        return true;
+            return true;
+    }
+
+    public boolean isValid1(String braces) {
+
+        char[] bracesArray = braces.toCharArray();
+
+        if (braces == null || braces.length() % 2 != 0) {
+            return false;
+        } else {
+            for (char brace : bracesArray) {
+                if (!(brace == '{' || brace == '[' || brace == '(')) {
+                    return false;
+                }
+            }
+        }
     }
 }
 
