@@ -28,7 +28,8 @@ public class FibonacciExtra {
 
     public static void recurrenceOutputDisplay() {
         System.out.println("Program's calculation result is: " +
-                runRecurrenceSum(scanChoice()));
+//                runRecurrenceSum(scanChoice()));
+                runRecurrenceSum1(scanChoice()));
     }
 
     public static int runIterationSum(int number) {
@@ -50,5 +51,9 @@ public class FibonacciExtra {
         } else {
             return number;
         }
+    }
+
+    public static int runRecurrenceSum1(int number) {
+        return number < 2 ? number : runRecurrenceSum1(number - 1) + runRecurrenceSum1(number - 2);
     }
 }
