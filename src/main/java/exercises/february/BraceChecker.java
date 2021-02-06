@@ -85,6 +85,14 @@ public class BraceChecker {
         }
         return braces.length() == 0;
     }
+
+    public boolean isValid3(String braces) {
+        int lengthOfBraces = braces.length();
+        for(int i = 0; i < lengthOfBraces; i++){
+            braces = braces.replace("{}", "").replace("[]", "").replace("()", "");
+        }
+        return braces.isEmpty();
+    }
 }
 
 

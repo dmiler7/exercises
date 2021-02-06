@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7803ed96-877d-4f87-beee-52f4738e000b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2021 ex/exercises/february/BraceChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2021 ex/exercises/february/BraceChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/february/BraceChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/february/BraceChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,6 +53,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -62,6 +63,12 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="exercises.february" />
     </key>
   </component>
   <component name="RunManager" selected="Application.BraceChecker">
@@ -143,17 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BraceChecker" />
@@ -199,7 +195,8 @@
       <workItem from="1612443141631" duration="2995000" />
       <workItem from="1612507610854" duration="4390000" />
       <workItem from="1612526636124" duration="379000" />
-      <workItem from="1612527377828" duration="6578000" />
+      <workItem from="1612527377828" duration="9549000" />
+      <workItem from="1612647209601" duration="1668000" />
     </task>
     <servers />
   </component>
