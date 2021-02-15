@@ -14,9 +14,17 @@ public class StackEx {
     }
 
     public static Stack returnElements(Stack stk) {
-        stk.push(78);
-        stk.push(1);
-        stk.push(4);
         return stk;
+    }
+
+    public static void pushElement(Stack stk, int x) {
+        stk.push(x);
+        System.out.println("push -> " + x);
+    }
+
+    public static void popElement(Stack stk) {
+        System.out.print("pop -> ");
+        int x = (Integer) stk.pop();
+        System.out.println(x);
     }
 }
