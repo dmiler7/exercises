@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7803ed96-877d-4f87-beee-52f4738e000b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/february/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/february/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/february/notes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="exercises.february" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BraceChecker">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BraceChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.february.BraceChecker" />
       <module name="2021 ex" />
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.january.FindOdd" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.february.notes.Main" />
       <module name="2021 ex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.january.*" />
+          <option name="PATTERN" value="exercises.february.notes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +127,6 @@
     </configuration>
     <configuration name="Troll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercises.january.Troll" />
-      <module name="2021 ex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.february.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VowelsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.january.VowelsCount" />
       <module name="2021 ex" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BraceChecker" />
         <item itemvalue="Application.FibonacciExtra" />
         <item itemvalue="Application.Troll" />
         <item itemvalue="Application.CreatePhoneNumber" />
-        <item itemvalue="Application.VowelsCount" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +196,15 @@
       <workItem from="1612526636124" duration="379000" />
       <workItem from="1612527377828" duration="9549000" />
       <workItem from="1612647209601" duration="1668000" />
-      <workItem from="1612725333334" duration="903000" />
+      <workItem from="1612725333334" duration="1207000" />
+      <workItem from="1612772431646" duration="1342000" />
+      <workItem from="1612792679892" duration="763000" />
+      <workItem from="1612956151128" duration="595000" />
+      <workItem from="1612967243480" duration="589000" />
+      <workItem from="1613041875003" duration="588000" />
+      <workItem from="1613248784895" duration="593000" />
+      <workItem from="1613376475077" duration="1705000" />
+      <workItem from="1613399799868" duration="1687000" />
     </task>
     <servers />
   </component>
